@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "testing cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open",
+    "start": "cypress run --spec cypress/integration/0-a11y-tests/accessibility.js"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "automation"
+  ],
+  "author": "shaun",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "axe-core": "^4.4.1",
+    "cypress": "^9.5.1",
+    "cypress-axe": "^0.14.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "start-server-and-test": "^1.14.0"
+  }
+}
